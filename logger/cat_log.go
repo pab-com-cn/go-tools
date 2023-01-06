@@ -34,7 +34,7 @@ case ErrorLevel:
 default:
   l = "[INFO]"
 }
-  fmt.Printf("")
+  fmt.Printf("%s", l)
 }
 
 func (cl *CatLog) IDebug(msg string) {}
